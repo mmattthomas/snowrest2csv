@@ -1,0 +1,12 @@
+{
+  "name": "snowrest2csv",
+  "version": "1.0.0",
+  "description": "script to throw servicenow rest api GET calls into CSV",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "json2csv": "^3.11.5",
+    "moment": "^2.19.1"
+  }
+}
