@@ -43,11 +43,11 @@ var config = {
         }, 
         {
             key: "asset",
-            table: "",
+            table: "u_alm_asset_di_customer_asset",
             queryparams: "",
-            headerFields: "",
-            restFields: "",
-            limit: 0
+            headerFields: "Beta,Company_Id,Contract Start,Customer_Contract_Id,Deactivated_Date,Delivery_Date,FI_Vendor_Id,Live_Date,Product_Id,Project_Id,Status,Status_Detail_Id",
+            restFields: "u_beta,account,u_contract_start_date,u_contract_link,u_deactivated,u_delivery_date,u_solution_provider_product,u_live_date,model,u_program,install_status,substatus",
+            limit: 20
         }
     ]
 

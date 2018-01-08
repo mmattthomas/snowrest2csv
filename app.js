@@ -156,10 +156,13 @@ function doRequest(restCallOptions) {
     if (restCallOptions.limit) {
         restPath += "&sysparm_limit=" + restCallOptions.limit;
     }
-    restPath += "&sysparm_exclude_reference_link=TRUE"
+    
+    restPath += "&sysparm_exclude_reference_link=TRUE";
+    //restPath += "&sysparm_display_value=true";    // if true, provides friendly name for ALL ref values (FKs and simple IDs)
 
     //console.log('rest option query:' + restCallOptions.query);
     //console.log('rest uri:' + restPath);
+    //console.log(`credentials: [user:${process.env.RESTAPI_USER}, pass:${process.env.RESTAPI_PASS}]`);
 
     // build options
     var options = {
